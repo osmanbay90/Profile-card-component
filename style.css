@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+.attribution {
+    color: white;
+    font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);
+ }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+}
+
+body::before {
+    content: '';
+    background-image: url(./images/bg-pattern-top.svg); 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    inset: 0;
+    opacity: 1;
+}
+
+.container {
+    margin: 0 auto;
+    width: 350px;
+    /* border: 2px solid red; */
+    isolation: isolate;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    padding-bottom: 0.54em;
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.2);
+}
+.bgco-cover {
+    position: relative;
+}
+.bgco-cover > img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-profile > img {
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    top: -50px;
+}
+.card-profile {
+    height: auto;
+}
+
+.card-profile > h3 {
+    text-align: center;
+    position: relative;
+    top: -50px;
+    font-weight: 700;
+}
+
+.card-profile span {
+    font-size: 0.9em;
+    color: hsl(0, 0%, 59%);
+}
+
+.card-profile p {
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    position: relative;
+    top: -45px;
+}
+
+hr {
+    position: relative;
+    top: -30px;
+}
+
+.content-f-l-p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+
+.content-descr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    color:  hsl(0, 0%, 59%);
+    padding: 0.5em 0;
+    font-weight: 400;
+}
